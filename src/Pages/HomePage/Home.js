@@ -4,7 +4,7 @@ import background from './../../assets/Images/pic.jpg'
 const Home = () => {
     return (
         <div>
-            <div class="hero min-h-screen bg-base-200">
+            <div class="hero min-h-screen bg-accent">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src={background} class="max-w-sm rounded-lg shadow-2xl" />
                     <div>

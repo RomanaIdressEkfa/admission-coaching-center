@@ -3,7 +3,7 @@ import React from 'react';
 const Nabvar = () => {
     return (
         <div>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-primary">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -17,7 +17,8 @@ const Nabvar = () => {
                     </div>
                 </div>
                 <div class="navbar-center">
-                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <a class="btn btn-ghost normal-case text-xl">CareerAid</a>
+                    {/* Admission Admission Coaching Home */}
                 </div>
                 <div class="navbar-end">
                     <button class="btn btn-ghost btn-circle">

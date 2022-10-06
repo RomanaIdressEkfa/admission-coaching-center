@@ -1,7 +1,9 @@
 import React from 'react';
 import CourseView from './CourseView';
 import Home from './Home';
-import LearnCourse from './LearnCourse';
+import LearnCourse from '../Card/LearnCourse';
+import Subject from '../Card/Subjects';
+import Course from './Course';
 
 const HomePage = () => {
     return (
@@ -9,6 +11,8 @@ const HomePage = () => {
             <Home></Home>
             <CourseView></CourseView>
             <LearnCourse></LearnCourse>
+            <Subject></Subject>
+            <Course></Course>
         </div>
     );
 };
